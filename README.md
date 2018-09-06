@@ -1,4 +1,4 @@
-# at-credit-card-validator v.1.0.0
+# at-credit-card-validator v.1.0.1
 
 **Esta biblioteca tem a funcionalidade de validar número de Cartão de Crédito por meio do [algaritmo de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm)**
 Nesta versão, é possível validar se o número do Cartão de Crédito é verdadeiro ou falso.
@@ -27,7 +27,7 @@ $node
 ## instalação
 
 - você deverá ter o node + npm instalados. Para guia de instalação, visite [o site oficial](https://www.npmjs.com/get-npm).
-- proceda com a instalação com `$npm install at-card-validator`
+- proceda com a instalação com `$npm install at-credit-card-validator`
 
 
 ## roadmap oficial do projeto
