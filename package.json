@@ -1,14 +1,14 @@
 {
   "name": "at-credit-card-validator",
   "version": "1.0.0",
-  "description": "card validator using Luhn's algorithm",
+  "description": "valids credit card number using Luhn's algorithm",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreiatrianon/card-validator-lib.git"
+    "url": "git+https://github.com/andreiatrianon/credit-card-validator-lib.git"
   },
   "keywords": [
     "card",
@@ -19,15 +19,15 @@
   "author": "Andreia Trianon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andreiatrianon/card-validator-lib/issues"
+    "url": "https://github.com/andreiatrianon/credit-card-validator-lib/issues"
   },
-  "homepage": "https://github.com/andreiatrianon/card-validator-lib#readme",
+  "homepage": "https://github.com/andreiatrianon/credit-card-validator-lib#readme",
   "dependencies": {
     "chai": "^4.1.2",
-    "eslint": "^5.5.0",
+    "nyc": "^13.0.1",
     "mocha": "^5.2.0"
   },
   "devDependencies": {
-    "nyc": "^13.0.1"
+    "eslint": "^5.5.0"
   }
 }

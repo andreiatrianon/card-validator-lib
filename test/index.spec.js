@@ -16,6 +16,7 @@ describe("cardValidator - valid a Credit Card number:", function() {
         expect(() => cardValidator('12?/3456')).to.throw(Error, 'The card number contains quotes, a text or special character, insert only numbers without quotes');
         expect(() => cardValidator('-123456')).to.throw(Error, 'The card number contains quotes, a text or special character, insert only numbers without quotes');
         expect(() => cardValidator('36490102462661')).to.throw(Error, 'The card number contains quotes, a text or special character, insert only numbers without quotes');
+        expect(() => cardValidator('3649010 2462661')).to.throw(Error, 'The card number contains quotes, a text or special character, insert only numbers without quotes');
         expect(() => cardValidator('2')).to.throw(Error, 'The card number contains quotes, a text or special character, insert only numbers without quotes');
       });
     });
